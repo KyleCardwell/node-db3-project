@@ -145,7 +145,7 @@ function addStep(scheme_id, step) { // EXERCISE E
     and resolves to _all the steps_ belonging to the given `scheme_id`,
     including the newly created one.
   */
- return db("steps").insert(step)?
+//  return db("steps").insert(step)
 }
 
 module.exports = {
